@@ -1,0 +1,30 @@
+$Orange: #FE753F;
+$Black: #030A1B;
+$White: #FFFFFF;
+$Blue: #2E6EFF;
+$fonts: ('Poppins', 'Medium', 500),
+      ('Poppins','Regular', 400),
+      ('Poppins','SemiBold', 600);
+         
+@each $name, $type, $weight in $fonts {
+   @font-face {
+      font-family: $name;
+      src: url('../fonts/#{$name}-#{$type}.ttf');
+      font-weight: $weight;
+   }
+}
+
+.container {
+   max-width: 1146px;
+   width: 100%;
+   margin: 0 auto;
+   padding:0 10px;
+}
+
+* {
+   margin: 0;
+   padding: 0;
+   list-style: none;
+   text-decoration: none;
+   box-sizing: border-box;
+}

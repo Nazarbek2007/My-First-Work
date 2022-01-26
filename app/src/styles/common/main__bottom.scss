@@ -1,0 +1,440 @@
+.mainBtm {
+  &__info {
+    background: #F9F9F9;
+  }
+
+  &__Info {
+    margin-top: 140px;
+    padding: 70px 0;
+
+  }
+
+  &__info-Title {
+    font-size: 44px;
+    line-height: 66px;
+    color: $Black;
+    font-family: 'Poppins';
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  &__info-disc {
+    color: $Black;
+    opacity: 0.7;
+    max-width: 728px;
+    width: 100%;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    margin: 0 auto;
+    font-family: 'Poppins';
+    font-weight: 400;
+  }
+
+  &__Property {
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+
+  &__Security {
+    padding: 25px ;
+    background: $White;
+    max-width: 362px;
+    width: 100%;
+    border-radius: 10px;
+  }
+
+  &__Parkers {
+    padding: 25px ;
+    background: $White;
+    max-width: 362px;
+    width: 100%;
+    border-radius: 10px;
+  }
+
+  &__Conditioner {
+    padding: 25px ;
+    background: $White;
+    max-width: 362px;
+    width: 100%;
+    margin-top: 30px;
+    border-radius: 10px;
+  }
+
+  &__FLower {
+    padding: 25px ;
+    background: $White;
+    max-width: 362px;
+    width: 100%;
+    margin-top: 30px;
+    border-radius: 10px;
+  }
+
+  &__Swimming {
+    padding: 25px;
+    background: $White;
+    max-width: 362px;
+    width: 100%;
+    margin-top: 30px;
+    border-radius: 10px;
+  }
+
+  &__Rental {
+    padding: 25px;
+    background: $White;
+    max-width: 362px;
+    width: 100%;
+    margin-top: 30px;
+    border-radius: 10px;
+  }
+
+  &__Security-h4 {
+    font-size: 22px;
+    line-height: 33px;
+    font-family: 'Poppins';
+    font-weight: 600;
+    color: $Black;
+    margin-top: 15px;
+  }
+
+  &__Security-desc {
+    max-width: 311px;
+    width: 100%;
+    font-family: 'Poppins';
+    font-weight: 400;
+    margin-top: 10px;
+  }
+
+  &__Center-Img {
+    height: 100%;
+  }
+
+  &__Slide-info {
+    display: flex;
+  }
+
+  &__Center-link {
+    font-size: 16px;
+    line-height: 24px;
+    color: $Orange;
+    font-family: 'Poppins';
+    font-weight: 600;
+  }
+
+  &__Center {
+    margin-top: 140px;
+  }
+
+  &__Center-h3 {
+    font-size: 44px;
+    line-height: 66px;
+    color: $Black;
+    font-family: 'Poppins';
+    font-weight: 600;
+    margin-top: 10px;
+  }
+
+  &__Center-start {
+    text-align: center;
+  }
+
+  &__Center-Slide {
+    padding: 30px;
+    max-width: 558px;
+    width: 100%;
+    border: 2px solid rgba(254, 117, 63, 0.1);
+    border-radius: 10px;
+    margin-left: 30px;
+    background: #FFFFFF;
+  }
+
+  &__Slide-Title {
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 33px;
+    color: $Black;
+  }
+
+  &__Slide-Desc {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: $Black;
+    opacity: 0.7;
+  }
+
+  &__Center-Slides {
+    display: none;
+    justify-content: space-between;
+    position: absolute;
+    top: 0;
+
+    &.active {
+      display: flex;
+    }
+  }
+
+  &__Slide-names {
+    margin-left: 31px;
+  }
+
+  &__Slide-TwoIcon {
+    opacity: 0.1;
+    height: 100%;
+    margin-left: 100px;
+  }
+
+  &__Slides-disc {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: $Black;
+    opacity: 0.7;
+    margin-top: 30px;
+    max-width: 488px;
+    width: 100%;
+  }
+
+  &__CenSlid-Par {
+    position: relative;
+    min-height: 260px;
+    margin-top: 70px;
+  }
+
+  &__Cen-list {
+    max-width: 78px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 40px auto;
+  }
+
+  &__Cen-link {
+    background: #EDEDED;
+    color: $White;
+    border-radius: 50%;
+    width: 14px;
+    height: 14px;
+    cursor: pointer;
+    transition: 1s;
+
+    &.active {
+      background: $Blue;
+    }
+  }
+
+  &__CenB-Form {
+    background: #433E89;
+    border-radius: 10px;
+    padding: 70px 15px;
+    margin-top: 140px;
+  }
+
+  &__CenB-h3 {
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 44px;
+    line-height: 60px;
+    text-align: center;
+    color: $White;
+    margin-bottom: 15px;
+  }
+
+  &__CenB-desc {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin: 0 auto;
+    text-align: center;
+    color: $White;
+    opacity: 0.7;
+    max-width: 635px;
+    width: 100%;
+    margin-bottom: 70px;
+  }
+
+  &-Form {
+    max-width: 743px;
+    width: 100%;
+    background: $White;
+    border-radius: 10px;
+    padding: 7px 7px 7px 30px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+  }
+
+  &__input {
+    border: none;
+    outline: none;
+  }
+
+  &__formButton {
+    border: none;
+    padding: 16px 40px;
+    background: $Blue;
+    border-radius: 10px;
+    cursor: pointer;
+    color: $White;
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+  }
+}
+@media(max-width:1150px) {
+  .mainBtm__Property {
+     flex-direction: column;
+  }
+  .mainBtm__Center-Img {
+     max-width:500px;
+     height: 700px;
+     width: 100%;
+     margin:0 auto;
+  }
+  .mainBtm__Proper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  .mainBtm__ProperTwo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  .mainBtm__Conditioner {
+    margin-top: 0;
+  }
+  .mainBtm__FLower {
+    margin-bottom: 30px;
+  }
+  .mainBtm__Parkers {
+    margin-top: 30px;
+  }
+  .mainBtm__Center-Slides {
+    flex-direction: column;
+    align-items: center;
+  }
+  .mainBtm__Center {
+    margin-top: 100px;
+  }
+  .mainBtm__CenB-Form {
+    margin-top:100px;
+  }
+  .mainBtm__CenSlid-Par {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+  } 
+  .mainBtm__Cen-list  {
+    margin-top: 350px;
+  }
+}
+
+@media(max-width: 800px) {
+  .mainBtm-Form {
+    max-width: 350px;
+    width: 100%;
+    padding: 6px 8px 6px 6px;
+  }
+  .mainBtm__formButton {
+    padding: 7px;
+  }
+}
+@media(max-width: 800px) {
+  .mainBtm__Info {
+    margin-top: 30px;
+  }
+}
+
+@media(max-width: 743px) {
+  .mainBtm__Conditioner {
+    margin-top: 30px;
+  }
+}
+@media(max-width: 600px) {
+  .mainBtm__CenB-Form {
+    margin-top: 60px;
+  }
+  .mainBtm__Center {
+    margin-top: 60px;
+  }
+  .mainBtm__Center-h3 {
+    line-height: 40px;
+  }
+}
+@media(max-width: 550px) {
+  .mainBtm__Info {
+    padding: 30px;
+  }
+  .mainBtm__Slides-disc {
+    max-width:380px;
+    width: 100%;
+  }
+  .mainBtm__Slide-TwoIcon {
+    margin-left: 10px;
+  }
+  .mainBtm__Center-Slide {
+    margin-left: 0px;
+  }
+  .mainBtm__Center-Img  {
+    height: 500px;
+  }
+  .mainBtm__CenB-Form {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+}
+@media(max-width: 482px) {
+  .mainBtm__info-Title {
+    line-height: 45px;
+  }
+}
+@media(max-width:432px) {
+  .mainBtm__Slide-Title {
+    font-size: 19px;
+  }
+  .angel {
+    height: 100%;
+  }
+  .mainBtm__Cen-list {
+    margin-top: 300px;
+  }
+  .mainBtm__CenB-Form {
+    margin-top: 50px;
+  }
+  .mainBtm__Slides-disc {
+    font-size: 14px;
+    margin-top: 10px;
+  }
+}
+@media(max-width: 401px) {
+  
+  .mainBtm__CenB-desc {
+    margin-bottom: 30px;
+  }
+  .mainBtm__CenB-h3 {
+    line-height: 40px;
+  }
+  .mainBtm__Cen-list {
+    margin-top: 300px;
+  }
+}
+@media(max-width: 389px) {
+  .mainBtm__Cen-list {
+    margin-top: 350px;
+  }
+}
+@media(max-width: 382px) {
+  .mainBtm__Cen-list {
+    margin-top: 390px;
+  }
+}

@@ -1,0 +1,194 @@
+.main {
+   &__topSpon-h2 {
+      margin-top: 100px;
+      font-size: 44px;
+      line-height: 66px;
+      color: $Black;
+      font-family: 'Poppins';
+      font-weight: 600;
+      text-align: center;
+      margin-bottom: 65px;
+   }
+
+   &__topSpon-Par {
+      display: flex;
+      justify-content: space-between;
+   }
+
+   &__topSell-top {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+   }
+
+   &__topSell {
+      margin-top: 141px;
+   }
+
+   &__topSell-h2 {
+      font-size: 44px;
+      line-height: 66px;
+      color: $Black;
+      font-family: 'Poppins';
+      font-weight: 600;
+   }
+
+   &__topSell-viewAll {
+      font-size: 16px;
+      line-height: 24px;
+      color: $Orange;
+      font-family: 'Poppins';
+      font-weight: 600;
+   }
+   // &__topHouse-heart {
+   //    background: url("../images/grey-heart.webp") no-repeat center / cover;
+   //    font-size: 16px;
+   // }
+   &__topHouse-GreyImg , &__topHouse-RedImg {
+      position: absolute;
+      margin-top: 11px;
+      margin-left: -15px;
+      &.active {
+         display: none;
+      }
+   }
+   &__topHouse-heart {
+      position: relative;
+   }
+   &__topHouse-Block {
+      padding: 0 30px 30px 30px ;
+   }
+   &__topHouse-hearts {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 30px;
+   }
+   &__topHouse {
+      max-width: 362px;
+      width: 100%;
+   }
+   &__topHouse-h5 {
+      font-size: 22px;
+      line-height: 33px;
+      color: $Black;
+      font-family: 'Poppins';
+      font-weight: 600;
+   }
+   &__topHouse-disc{
+      margin-top: 10px;
+      display: flex;
+      flex-direction: row-reverse;
+      width: max-content;
+      font-size: 16px;
+      line-height: 24px;
+      color: #030A1B;
+      font-family: 'Poppins';
+      font-weight: 400;
+      opacity: 0.7;
+      align-items: center;
+   }
+   &__topHouse-discImg {
+      margin-right: 10px;
+      height: 100%;
+   }
+   &__topHouse-Icons {
+      display: flex;
+      max-width: 126px;
+      width: 100%;
+      justify-content: space-between;
+      margin-top: 20px;
+   }
+   &__topHouse-iconDisc {
+      display: flex;
+      flex-direction: row-reverse;
+      color: $Black;
+      opacity: 0.7;
+      font-size: 14px;
+      line-height: 21px;
+      font-family: 'Poppins';
+      font-weight: 400;
+      align-items: center;
+   }
+   &__topHouse-Icon {
+      margin-right: 5px;
+   }
+   &__topHouse-links {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 30px;
+      align-items: center;
+   }
+   &__topHouse-linksDisc {
+      color: $Orange;
+      font-size: 22px;
+      line-height: 33px;
+      font-family: 'Poppins';
+      font-weight: 600;
+   }
+   &__topHouse-link {
+      color: $White;
+      padding:10px 20px;
+      background: $Blue;
+      border-radius: 5px;
+      font-family: 'Poppins';
+      font-weight: 500;
+   }
+   &__topHouse {
+      box-shadow: 0px 8px 70px rgba(0, 0, 0, 0.07);
+      border-radius: 10px;
+   }
+   &__topHouses {
+      margin-top: 70px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+   }
+}
+
+@media(max-width:1150px) {
+   .main__topHouses {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+   }
+   .main__topSpon-Par {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+   }
+   .main__topSpon-Img {
+      padding: 0 45px;
+      margin-top: 25px;
+   }
+   .main__topSell {
+      margin-top: 100px;
+   }
+}
+@media(max-width:600px) {
+   .main__topSpon-h2 {
+      margin-top: 40px;
+      margin-bottom: 20px;
+   }
+}
+@media(max-width: 520px) {
+   .main__topSell-top {
+      flex-direction: column;
+      align-items:center;
+   }
+   .main__topSell-h2 {
+      text-align: center;
+   }
+   .main__topSell {
+      margin-top: 50px;
+   }
+}
+@media(max-width: 381px) {
+   .main__topHouse-IMG {
+      width: 361px;
+   }
+}
+@media(max-width: 380px) {
+   .main__topHouse-IMG {
+      width: 360px;
+   }
+}
